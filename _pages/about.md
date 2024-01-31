@@ -1,26 +1,36 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <b>Senior Game Programmer</b> # emoji: &#128188
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  workplace: <b><a href="https://www.doubledashstudios.com/">Double Dash Studios</a></b> # emoji: &#127970
+  address: #<p>&#127479; Porto Alegre, Brazil</p> 
+
+interests:
+    - <b>Game Engines</b>
+    - <b>Real-time Rendering</b>
+    - <b>Low-Latency Software</b>
+
+education:
+    - degree: B.Sc. in Computer Science
+      institution: <a href="https://www.inf.ufrgs.br/site/">UFRGS</a>
+      year: 2022
 
 news: false  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Currently at [Double Dash Studios](http://www.doubledashstudios.com). We helped *Rogue Snail Studios* to deliver [Relic Hunters Legend](https://store.steampowered.com/app/633080/Relic_Hunters_Legend/), developing in-engine tools for content creation teams and multiple endgame systems. Currently porting [Jorel’s Brother and The Most Important Game of the Galaxy](https://store.steampowered.com/app/1398910/Jorels_Brother_and_The_Most_Important_Game_of_the_Galaxy/) to consoles.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously worked developing low-latency video encoding/decoding solutions on [ZCentral Remote Boost](https://www.hp.com/us-en/workstations/zcentral-remote-boost.html) at HP Inc.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My academic background at [UFRGS](https://www.inf.ufrgs.br/site/) was heavily focused on real-time 3D rendering, which contributed to my professional interest in Game Engines and High-Performance software development.
+
+My professional goal is to contribute to advancing the state of the art of Game Engines and Real-time Rendering technologies.

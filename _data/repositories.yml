@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - leotgo
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - leotgo/bright-souls
+  - leotgo/unity-coding-standards
+  - leotgo/tcc-adaptive-difficulty
+  - leotgo/wakaman
+  - leotgo/jumpy-birb
