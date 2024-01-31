@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: Game Jams
+description: My itch.io page, with various game jam projects I developed over the years.
+img: assets/img/itch-io/card-preview.jpg
+importance: 6
+category: personal
+redirect: https://leotgo.itch.io
 ---
 
 Every project has a beautiful feature showcase page.

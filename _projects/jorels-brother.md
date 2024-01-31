@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Jorel's Brother and The Most Important Game of the Galaxy
+description: Application porting and optimization to Xbox One and Xbox Series X|S.
+img: assets/img/jorels-brother/card-preview.jpg
 importance: 2
 category: work
-giscus_comments: true
+redirect: https://store.steampowered.com/app/1398910/Jorels_Brother_and_The_Most_Important_Game_of_the_Galaxy/
 ---
 
 Every project has a beautiful feature showcase page.

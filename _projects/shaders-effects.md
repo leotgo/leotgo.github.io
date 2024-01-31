@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
-category: work
-related_publications: einstein1956investigations, einstein1950meaning
+title: Shaders and Effects
+description: Development of various shaders and effects in Unity, UE5 and HLSL.
+img: assets/img/shaders-effects/card-preview.png
+importance: 4
+category: personal
 ---
 
 Every project has a beautiful feature showcase page.

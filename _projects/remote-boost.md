@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: HP ZCentral Remote Boost
+description: Multi-platform development and maintenance of a high-performance video encoding/decoding pipeline.
+img: assets/img/remote-boost/card-preview.jpg
 importance: 3
-category: fun
+category: work
+redirect: https://www.hp.com/us-en/workstations/zcentral-remote-boost.html
 ---
 
 Every project has a beautiful feature showcase page.

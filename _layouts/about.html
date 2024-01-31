@@ -7,7 +7,7 @@ layout: default
 
         <article>
           {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+          <div class="profile float-right">
             {%- if page.profile.image %}
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
@@ -25,7 +25,7 @@ layout: default
             {% endif -%}
             <style>
                 .post-header {
-                    text-align: center;
+                    text-align: left;
                 }
             
                 .post-title,
@@ -40,9 +40,9 @@ layout: default
                     <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
                     {{- site.last_name -}}
                 </h3>
-                <h5 class="desc">
+                <h6 class="desc">
                     {{ page.subtitle }}
-                </h5>
+                </h6>
                 {%- if page.profile.workplace %}
                 <h6 class="workplace">
                     {{ page.profile.workplace }}
@@ -59,9 +59,6 @@ layout: default
                     <div class="contact-icons">
                         {% include social.html %}
                     </div>
-                    <div class="contact-note">
-                        {{ site.contact_note }}
-                    </div>
                 </div>
                 {%- endif %}
             </header>
@@ -71,15 +68,10 @@ layout: default
 
         <style>
             .profile.float-left {
-                margin-right: 40px;
+                margin-right: 20px;
             }
             .profile.float-right {
-                margin-left: 40px;
-            }
-            .row {
-                margin-left: 40px;
-                margin-right: 40px;
-                margin-top: 20px;
+                margin-left: 20px;
             }
         </style>
           <div class="clearfix">
@@ -92,10 +84,31 @@ layout: default
             <h2 class="biography-header">Biography</h2>
             {{ content }}
 
-            <div class="row ml-10 mr-10">
-                <div class="col-md-6">
+            <br>
+            <style>
+                .interests-education-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: 0;
+                }
+                .interests-education-container .col-sm {
+                    width: 100%;
+                    margin: 0;
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .interests-education-container .col-sm h3 {
+                    width: 100%;
+                }
+                .interests-education-container .col-sm ul {
+                    list-style-type: disc;
+                    padding-left: 1.3em;
+                }
+            </style>
+            <div class="interests-education-container">
+                <div class="col-sm">
                     {%- if page.interests %}
-                    <h2>Interests</h2>
+                    <h3 class="interests-title">Interests</h3>
                     <ul>
                         {%- for interest in page.interests %}
                         <li>{{ interest }}</li>
@@ -103,9 +116,9 @@ layout: default
                     </ul>
                     {%- endif %}
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm">
                     {%- if page.education %}
-                    <h2>Education</h2>
+                    <h3 class="education-title">Education</h3>
                     <ul>
                         {%- for edu in page.education %}
                         <li>
@@ -118,7 +131,26 @@ layout: default
             </div>
           </div>
 
-          <hr>
+        <div class="projects">
+            {%- if page.project_display_categories %}
+                <!-- Display categorized projects -->
+                {%- for category in page.project_display_categories %}
+                    {%- assign category_display_name = category | replace: "work", "Recent Professional Contributions" | replace: "personal", "Personal Projects" %}
+                    <hr>
+                    <br>
+                    <h2 class="project-category">{{ category_display_name }}</h2>
+                    <br>
+                    {%- assign categorized_projects = site.projects | where: "category", category -%}
+                    {%- assign sorted_projects = categorized_projects | sort: "importance" %}
+                    <div class="grid">
+                        {%- for project in sorted_projects -%}
+                            {% include projects_aboutpage.html %}
+                        {%- endfor %}
+                    </div>
+                    <br>
+                {% endfor %}
+            {%- endif -%}
+        </div>
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}

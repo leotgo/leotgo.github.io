@@ -81,6 +81,41 @@ blockquote {
   text-align: center;
 }
 
+// About-page
+
+.about-card {
+    width: 100%;
+    background-color: var(--global-card-bg-color);
+
+    img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 0;
+    }
+
+    .card-title {
+        margin-top: -1em;
+        color: var(--global-text-color);
+        font-weight: bold;
+    }
+
+    .card-item {
+        width: auto;
+        margin-bottom: 10px;
+
+        .row {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.interests-education-container {
+    display: flex;
+    align-items: left;
+}
+
 // Card
 
 .card {
@@ -302,10 +337,10 @@ blockquote {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: left;
 
   .contact-icons {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
 
     a {
       i::before {
@@ -536,12 +571,21 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
+    //color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: right;
+    text-align: left;
+  }
+
+  h2.popular-repos-title {
+      //color: var(--global-divider-color);
+      border-bottom: 1px solid var(--global-divider-color);
+      padding-top: 0.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      text-align: left;
   }
 }
 
