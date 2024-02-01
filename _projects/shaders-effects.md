@@ -25,7 +25,7 @@ During my academic studies at [UFRGS](https://www.inf.ufrgs.br/site/en), I was f
 
 During an in-house game jam at [Double Dash Studios](http://www.doubledashstudios.com), I developed a Kuwahara Filter shader. The objective was to provide a painterly effect, which we used mainly to test out the game's visuals during early development. Here's a video showcasing the effect:
 
-<iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xq-P5ziIxEI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
