@@ -30,10 +30,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Currently at [Double Dash Studios](http://www.doubledashstudios.com). We helped *Rogue Snail Studios* deliver [Relic Hunters Legend](https://store.steampowered.com/app/633080/Relic_Hunters_Legend/), developing in-engine tools for content creation teams and multiple endgame systems. Currently porting [Jorel’s Brother and The Most Important Game of the Galaxy](https://store.steampowered.com/app/1398910/Jorels_Brother_and_The_Most_Important_Game_of_the_Galaxy/) to consoles.
+Currently at [Double Dash Studios](https://www.doubledashstudios.com/). Helped [Rogue Snail Studios](https://roguesnail.com/) deliver [Relic Hunters Legend](https://store.steampowered.com/app/633080/Relic_Hunters_Legend/), leading the development of in-engine tools for content creation teams and multiple endgame systems. Currently developing console ports for [Jorel’s Brother and The Most Important Game of the Galaxy](https://store.steampowered.com/app/1398910/Jorels_Brother_and_The_Most_Important_Game_of_the_Galaxy/).
 
-Previously worked developing low-latency video encoding/decoding solutions on [ZCentral Remote Boost](https://www.hp.com/us-en/workstations/zcentral-remote-boost.html) at HP Inc.
+Previously worked developing low-latency video encoding/decoding solutions on [ZCentral Remote Boost](https://www.hp.com/us-en/workstations/zcentral-remote-boost.html) at [HP Inc.](https://www.hp.com/us-en/home.html)
 
 My academic background at [UFRGS](https://www.inf.ufrgs.br/site/en) was heavily focused on real-time 3D rendering, which contributed to my professional interest in Game Engines and High-Performance software development.
 
-My professional goal is to contribute to advancing the state of the art of Game Engines and Real-time Rendering technologies.
+I specialize in C++ and C# for RT3D applications. Substantial experience with Unity, UE4/5, OpenGL and Vulkan.

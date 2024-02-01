@@ -122,7 +122,8 @@ layout: default
                     <ul>
                         {%- for edu in page.education %}
                         <li>
-                            <p>{{ edu.degree }} - {{ edu.institution }}, {{ edu.year }}</p>
+                            <p>{{ edu.degree }}<br>
+                               {{ edu.institution }}, {{ edu.year }}</p>
                         </li>
                         {%- endfor %}
                     </ul>
