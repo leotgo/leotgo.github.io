@@ -3,7 +3,7 @@ layout: page
 title: Bright Souls
 description: Development of a souls-like game with real-time Dynamic Difficulty Adjustment.
 img: assets/img/bright-souls/card-preview.png
-importance: 5
+importance: 4
 category: personal
 redirect: https://github.com/leotgo/bright-souls
 #related_publications: einstein1956investigations, einstein1950meaning

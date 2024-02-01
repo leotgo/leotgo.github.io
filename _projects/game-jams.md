@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Game Jams
-description: My itch.io page, with various game jam projects I developed over the years.
+description: My itch.io page, with various game jam projects developed over the years.
 img: assets/img/itch-io/card-preview.jpg
 importance: 6
 category: personal

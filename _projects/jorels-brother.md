@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Jorel's Brother and The Most Important Game of the Galaxy
-description: Application porting and optimization to Xbox One and Xbox Series X|S.
+description: Application porting and optimization for Xbox One and Xbox Series X|S.
 img: assets/img/jorels-brother/card-preview.jpg
 importance: 2
 category: work
